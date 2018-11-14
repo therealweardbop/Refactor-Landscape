@@ -1,0 +1,42 @@
+def setup():
+    size(600,600)
+def draw(): 
+    background(135,206,250)
+    
+    def draw_sun(x,y):
+        noStroke()
+        fill(255,255,0)
+        ellipse(x,y,150,150)
+    
+    draw_sun(500, 90)
+    
+    def draw_cloud(x, y):
+        noStroke()
+        fill(255,255,255)
+        ellipse(x, y, 100, 50)
+        ellipse(x,y, 100, 50)
+    draw_cloud(290,90)
+    draw_cloud(100,120)
+                
+    def draw_mountains(x1,y1,x2,y2,x3,y3):
+        noStroke()
+        fill(102,51,0)
+        triangle(x1,y1,x2,y2,x3,y3)
+    draw_mountains(10,600,205,300,400,600)
+    
+    def draw_mountains(x1,y1,x2,y2,x3,y3):
+        noStroke()
+        fill(102,51,0)
+        triangle(x1,y1,x2,y2,x3,y3)
+    draw_mountains(250,600,420,200,590,600)
+                
+    def draw_grass(x,y):
+        noStroke()
+        fill(51,204,0)
+        rect(x,y,1000,70)
+    draw_grass(0,550)
+
+    def draw_trees():
+        noStroke()
+        fill(102,204,0)
+                
