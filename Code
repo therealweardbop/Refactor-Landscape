@@ -32,7 +32,7 @@ def draw():
         noStroke()
         fill(51,204,0)
         rect(x,y,1000,150)
-    draw_grass(0,490)
+    draw_grass(0,480)
 
     def draw_treeTops(x1,y1,x2,y2,x3,y3):
         noStroke()
@@ -52,7 +52,7 @@ def draw():
         noStroke()
         fill(102,204,255)
         ellipse(x1,y1,400,90)
-    draw_pond(200,550)
+    draw_pond(210,550)
     
             
             
